@@ -1,0 +1,5 @@
+aiogram>=3.29.0,<4.0
+pydantic-settings
+aiogram_dialog
+tortoise-orm
+asyncpg
