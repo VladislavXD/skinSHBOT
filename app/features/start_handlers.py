@@ -29,7 +29,7 @@ async def start_handler(message: Message):
         await show_currency_selection_ui(
             message.bot,
             message.chat.id,
-            text="Выберите валюту (по умолчанию RUB)",
+            text="Выберите валюту (по умолчанию RUB).",
         )
         return
 

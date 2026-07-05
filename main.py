@@ -8,6 +8,9 @@ from app.features.catalog.router import router as catalog_router
 from app.features.admin.router import router as admin_router
 from app.features.cart.router import router as cart_router
 from app.features.profile.router import router as profile_router
+from kee_alive import keep_alive
+
+keep_alive()  # Запускаем веб-сервер для поддержания активности бота
 
 def setup_routers():
 	dp.include_router(start_router)
@@ -16,6 +19,8 @@ def setup_routers():
 	dp.include_router(admin_router)
 	dp.include_router(cart_router)
 	dp.include_router(profile_router)
+
+
 
 
 def setup_middlewares():
