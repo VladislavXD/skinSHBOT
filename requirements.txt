@@ -3,3 +3,4 @@ pydantic-settings
 aiogram_dialog
 tortoise-orm
 asyncpg
+flask
